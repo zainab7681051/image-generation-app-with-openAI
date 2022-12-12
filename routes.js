@@ -1,5 +1,7 @@
-const controller = require('./controller')
+const express = require('express');
+const controller = require('./controller.js');
+const router = express.Router();
 
-module.exports = (app) => {
-	app.post('/openAI/create', controller.generateImage)
-}
+router.post('/create', controller.generateImage);
+
+module.exports = router;
