@@ -2,6 +2,9 @@
 
 This is a simple image generator built with Node.js and Express that uses [OpenAI's Dall-E models](https://beta.openai.com/docs/guides/images) to generate images.
 
+###
+live link: https://openai-images.onrender.com/
+
 ## Usage
 
 create a `.env` and include port number and api key.
