@@ -45,7 +45,7 @@ module.exports = {
 			res.status(400)
 				.json({
 					success: false,
-					error: 'The image could not be generated',
+					error: 'The image could not be generated due to incorrect prompt OR Billing hard limit has been reached',
 				});
 		}
 	}
